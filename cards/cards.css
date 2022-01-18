@@ -1,0 +1,14 @@
+.btn-platzi {
+    background-color: #97c93e;
+    color: azure;
+}
+
+.btn-platzi:hover{
+    background-color: #85b337;
+    color: white !important;
+}
+
+.badge {
+    height: 25px;
+    font-size: 14px;
+}

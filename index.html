@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Platzi Conf Bootstrap</title>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#navbar-example2" >
+    
+    <header>
+        
+        <nav id="navbar-example2" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="#" style="font-weight: 500;">
+                  <img id="platzi-logo" src="../imagenes/platzi-logo.png"/> Conf Hawaii
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#main">La conferencia</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#speakers">Los oradores</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#info">Lugar y fecha</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link text-platzi" href="#orador">Conviertete en orador</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          
+
+    </header>
+
+    <main id="main">
+        <div id="carousel" class="carousel slide" data-bs-ride="carousel" data-bs-pause="true">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="5000">
+                    <img src="../imagenes/hawaii.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                    <img src="../imagenes/hawaii2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                    <img src="../imagenes/hawaii3.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="overlay">
+                    <div class="container h-100">
+                        <div class="row h-100 d-flex align-items-center">
+                            <div class="col-12 col-md-8 offset-md-4 col-xl-6 offset-xl-6 text-light text-center text-md-end">
+                                <h1>Platzi Conf: Hawaii</h1>
+                                <p class="d-none d-md-block">
+                                    Platzi Conf llega por primerz vez a Hawaii!!
+                                    Un evento para compartir con nuestra comunidad
+                                    el conocimiento, el aprendizaje y la ezperiencia
+                                    de los expertos que están creando el futuro de
+                                    internet. Ven a conocer miembros del Team Platzi,
+                                    a otros estudiantes de Platzi y a los oradores de
+                                    primer nivel que tenemos para ti!
+                                </p>
+                                <a href="#orador" class="btn btn-outline-light">Quiero ser orador</a>
+                                <a data-bs-toggle="modal" data-bs-target="#modalCompra" href="#" class="btn btn-platzi">Comprar Tickets</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <section id="speakers" class="mt-4 mb-4">
+
+        <div class="container">
+          <div class="row">
+            <div class="col text-center text-uppercase pb-2">
+              <small>conoce a los</small>
+              <h2>Oradores</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center">
+              <div class="card text-center" style="width: 18rem;">
+                <img src="../imagenes/freddy.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Freddy Vega <span class="badge btn-platzi">Startups</span></h5>
+                  <p class="card-text">Freddy llevó a Platzi a ser la primera empresa de la región que entró a Y Combinator. Hoy en día se mantiene como CEO de Platzi y es uno de los latinos más influyentes en el mundo de la tecnología.</p>
+                  <a href="https://platzi.com/profes/freddier/" target="_blank" class="btn btn-platzi">Ver perfil</a>
+                </div>
+              </div>
+            </div>
+            <div class="col col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center">
+              <div class="card text-center" style="width: 18rem;">
+                <img src="../imagenes/cvander.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Christian Van Der Henst <span class="badge bg-dark">Liderazgo</span></h5>
+                  <p class="card-text">Christian busca transformar la economía de Latinoamérica con educación efectiva y es el co-fundador de Platzi. Como COO, es el encargado de las operaciones, ventas y actividad financiera de la compañía.</p>
+                  <a href="https://platzi.com/profes/cvander/" target="_blank" class="btn btn-platzi">Ver perfil</a>
+                </div>
+              </div>
+            </div>
+            <div class="col col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center">
+              <div class="card text-center" style="width: 18rem;">
+                <img src="../imagenes/facmartoni.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Facundo Martoni<span class="badge bg-warning text-light">Inteligencias artificiales</span></h5>
+                  <p class="card-text">Facundo García Martoni, es un desarrollador apasionado por diversos campos de la industria tecnológica: Frontend, Backend, Data Science, IoT, Diseño, entre otros. Además de ser un gran profesor en Platzi</p>
+                  <a href="https://platzi.com/profes/facmartoni/" target="_blank" class="btn btn-platzi">Ver perfil</a>
+                </div>
+              </div>
+            </div>
+            <div class="col col-md-6 col-lg-12 col-xl-3 d-flex justify-content-center">
+              <div class="card text-center" style="width: 18rem;">
+                <img src="../imagenes/sacha.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Sacha Lifzsyc <span class="badge bg-info">Tecnología</span></h5>
+                  <p class="card-text">Senior Front-End Developer en @toptal Ingeniero en Sistemas de la @frbautn y profesor del curso de Bootstrap cuyo proyecto final es ésta página.</p>
+                  <a href="https://platzi.com/profes/sacha-lifszyc-65/" target="_blank" class="btn btn-platzi">Ver perfil</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+    </section>
+
+    <div id="info" class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-xl-6 p-0">
+                <img class="img-fluid" src="../imagenes/honolulu.jpg"/>
+            </div>
+            <div class="col-12 col-xl-6 bg-dark text-light text-center text-xl-end d-flex align-items-center pt-4 pb-4">
+              <div>
+                <h2>Honolulu - Octubre 2025</h2>
+                <p>
+                  Honolulu, en la costa sur de la isla de Oahu, es la capital de Hawái y la vía de acceso a la cadena de islas de EE.UU.
+                  El barrio de Waikiki es un centro de restaurantes, vida nocturna y comercio, famoso por su icónica playa con forma de
+                  medialuna bordeada de palmeras y hoteles de muchos pisos y con el cráter volcánico Diamond Head en lo alto a la distancia.
+                  Los sitios relacionados con el ataque a Pearl Harbor en la Segunda Guerra Mundial incluyen el USS Arizona Memorial. 
+                </p>
+                <a class="btn btn-outline-light" target="_blank" href="https://es.wikipedia.org/wiki/Honolulu">Conoce más acerca de Honolulu</a>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="orador">
+        <div class="container pt-4 pb-5">
+            <div class="row">
+                <div class="col text-center">
+                    <small class="text-uppercase">Conviertete en un</small>
+                    <h2 class="text-uppercase">orador</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <p>Anótate como orador para dar una <abbr title="charla de 5 minutos">charla ignite</abbr>. Cúentanos de que quieres hablar!</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-8 offset-lg-2">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Nombre y Apellido: </label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John Doe">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Asunto y tema de tu conferencia</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Mi conferencia se trata de:"></textarea>
+                    </div>
+                </div>
+                <div class="col-4 offset-4 text-center">
+                    <button class="btn btn-platzi w-100">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="bg-dark">
+
+        <div class="container pb-4 pt-4">
+            <div class="row text-center">
+                <div class="col-12 col-md-4 col-lg"><a class="text-light" href="https://platzi.com/foro/" target="_blank">Preguntas frecuentes</a></div>
+                <div class="col-12 col-md-4 col-lg"><a class="text-light" href="https://platzi.com" target="_blank">Contáctanos</a></div>
+                <div class="col-12 col-md-4 col-lg"><a class="text-light" href="https://platzi.com/precios/" target="_blank">Planes</a></div>
+                <div class="col-12 col-md-12 col-lg"><a class="text-light" href="https://platzi.com/terminos/" target="_blank">Términos y condiciones</a></div>
+            </div>
+        </div>
+
+    </footer>
+
+    <div class="modal fade" id="modalCompra" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Comprar Tickets</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-row">
+                <p>Nombre completo: </p>
+              </div>
+              <div class="form-row">
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+              </div>
+              <div class="form-row">
+                <p>Correo electrónico: </p>
+              </div>
+              <div class="form-row">
+                <input type="text" class="form-control">
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Cancelar</button>
+            <button type="button" class="btn btn-platzi">Enviar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
